@@ -5,7 +5,6 @@ import OurSpeciality from "../components/HomePage/OurSpeciality";
 import Portfolio from "../components/HomePage/Portfolio";
 
 import RoadMap from "../components/HomePage/RoadMap";
-import Team from "../components/HomePage/Team";
 import Testimonials from "../components/HomePage/Testimonials";
 
 import Pricing from "../components/HomePage/Pricing";
@@ -21,10 +20,7 @@ const Home = () => {
       <OurSpeciality></OurSpeciality>
       <Portfolio></Portfolio>
       <Pricing></Pricing>
-
       <RoadMap></RoadMap>
-      <Team></Team>
-      <Testimonials></Testimonials>
     </div>
   );
 };

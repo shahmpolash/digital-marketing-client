@@ -430,19 +430,11 @@ const Banner = () => {
                 </div>
               </div>
               <div className="swiper-button-prev " onClick={handlePrevSlide}>
-                <img
-                  className="white-arrow"
-                  src="https://i.ibb.co/y6Ck0z5/left-arrow.png"
-                  alt="banner"
-                ></img>
+                
                 <FontAwesomeIcon icon="chevron-left" />
               </div>
               <div className="swiper-button-next " onClick={handleNextSlide}>
-                <img
-                  className="white-arrow"
-                  src="https://i.ibb.co/JK9Bd4H/right-arrow.png"
-                  alt="banner"
-                ></img>
+               
                 <FontAwesomeIcon icon="chevron-right" />
               </div>
             </div>

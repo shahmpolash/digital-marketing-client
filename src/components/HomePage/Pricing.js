@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import './Pricing.css';
 
 const Pricing = () => {
   const margin0 = {
@@ -55,93 +56,50 @@ const Pricing = () => {
                               <div className="image">
                                 <img src={p.img} alt="" />
                               </div>
-                              <div className="info">
+                              <div className="info pricing">
                                 <h5 className="name">${p.price} USD</h5>
 
                                 <p>{p.packageName}</p>
-                                <img
-                                  src="https://themesflat.co/html/cyfoniihtml/assets/images/icon/quote-2.png"
-                                  alt=""
-                                />
+                               
                               </div>
                               <li className="text1">
-                                <img
-                                  style={margin0}
-                                  src="https://i.ibb.co/HnrpzH6/icons8-tick-16.png"
-                                  alt="images"
-                                ></img>
+                                
                                 <span>{p.featureOne}</span>
                               </li>
                               <li className="text1">
-                                <img
-                                  style={margin0}
-                                  src="https://i.ibb.co/HnrpzH6/icons8-tick-16.png"
-                                  alt="images"
-                                ></img>
+                                
                                 <span>{p.featureTwo}</span>
                               </li>{" "}
                               <li className="text1">
-                                <img
-                                  style={margin0}
-                                  src="https://i.ibb.co/HnrpzH6/icons8-tick-16.png"
-                                  alt="images"
-                                ></img>
+                               
                                 <span>{p.featureThree}</span>
                               </li>{" "}
                               <li className="text1">
-                                <img
-                                  style={margin0}
-                                  src="https://i.ibb.co/HnrpzH6/icons8-tick-16.png"
-                                  alt="images"
-                                ></img>
+                               
                                 <span>{p.featureFour}</span>
                               </li>{" "}
                               <li className="text1">
-                                <img
-                                  style={margin0}
-                                  src="https://i.ibb.co/HnrpzH6/icons8-tick-16.png"
-                                  alt="images"
-                                ></img>
+                               
                                 <span>{p.featureFive}</span>
                               </li>{" "}
                               <li className="text1">
-                                <img
-                                  style={margin0}
-                                  src="https://i.ibb.co/HnrpzH6/icons8-tick-16.png"
-                                  alt="images"
-                                ></img>
+                               
                                 <span>{p.featureSix}</span>
                               </li>{" "}
                               <li className="text1">
-                                <img
-                                  style={margin0}
-                                  src="https://i.ibb.co/HnrpzH6/icons8-tick-16.png"
-                                  alt="images"
-                                ></img>
+                               
                                 <span>{p.featureSeven}</span>
                               </li>{" "}
                               <li className="text1">
-                                <img
-                                  style={margin0}
-                                  src="https://i.ibb.co/HnrpzH6/icons8-tick-16.png"
-                                  alt="images"
-                                ></img>
+                               
                                 <span>{p.featureEight}</span>
                               </li>{" "}
                               <li className="text1">
-                                <img
-                                  style={margin0}
-                                  src="https://i.ibb.co/HnrpzH6/icons8-tick-16.png"
-                                  alt="images"
-                                ></img>
+                                
                                 <span>{p.featureNine}</span>
                               </li>
                               <li className="text1">
-                                <img
-                                  style={margin0}
-                                  src="https://i.ibb.co/HnrpzH6/icons8-tick-16.png"
-                                  alt="images"
-                                ></img>
+                               
                                 <span>{p.featureTen}</span>
                               </li>
                               <Link class="action-btn" to={`/package/${p._id}`}>
